@@ -11,6 +11,7 @@ export default function App() {
         }
         nome={"Anel e pulseira"}
         desc={"Lindo Anel mais Pulseira Banhada a ouro"}
+        link={"https://www.google.com"}
       />
     </>
   );

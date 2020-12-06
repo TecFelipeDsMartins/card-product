@@ -31,7 +31,7 @@ export default props => {
           <h2>{props.nome}</h2>
           <p>{props.desc}</p>
           <button>
-            <a href="https://www.google.com">Encomendar</a>
+            <a href={props.link}>Encomendar</a>
           </button>
         </ProductCard>
       </div>
