@@ -41,7 +41,13 @@ export default props => {
           <h2>{props.nome}</h2>
           <p>{props.desc}</p>
           <button>
-            <a href={`https://api.whatsapp.com/send?phone=5551982658481&text=Ol%C3%A1.%20Visitei%20seu%20site%20e%20queria%20encomendar%20${props.nome}%20`}>Encomendar</a>
+            <a
+              href={
+                "https://api.whatsapp.com/send?phone=5551982658481&text=Ol%C3%A1.%20Visitei%20seu%20site%20e%20queria%20encomendar%20"
+              }
+            >
+              Encomendar
+            </a>
           </button>
         </ProductCard>
       </div>
