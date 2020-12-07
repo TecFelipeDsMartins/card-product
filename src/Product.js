@@ -31,8 +31,13 @@ const ProductCard = styled.section`
 
 export default props => {
   const quandoClicar = () => {
-    console.log("Clicou");
   };
+    let productName = props.nome;
+    let linkWhats =
+      "https://api.whatsapp.com/send?phone=5551982658481&text=Ol%C3%A1.%20Visitei%20seu%20site%20e%20queria%20encomendar%20";
+
+    let linkWithNameProduct = linkWhats + productName + "%20";
+console.log(linkWithNameProduct)
   return (
     <>
       <div>
@@ -41,13 +46,8 @@ export default props => {
           <h2>{props.nome}</h2>
           <p>{props.desc}</p>
           <button>
-            <a
-              href={
-                "https://api.whatsapp.com/send?phone=5551982658481&text=Ol%C3%A1.%20Visitei%20seu%20site%20e%20queria%20encomendar%20"
-              }
-            >
-              Encomendar
-            </a>
+            <a href={linkWithNameProduct}>Encomendar</a>
+        
           </button>
         </ProductCard>
       </div>
