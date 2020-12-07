@@ -25,7 +25,7 @@ const ProductCard = styled.section`
 
   a {
     text-decoration: none;
-    color: #0f0;
+    color: #fff;
   }
 `;
 
