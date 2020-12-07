@@ -9,7 +9,8 @@ const ProductCard = styled.section`
   img {
     height: 200px;
     &:hover {
-      height: 210px;
+      height: 201px;
+      box-shadown: 2px 2px 1px 4px;
     }
   }
 
