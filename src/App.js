@@ -13,6 +13,15 @@ export default function App() {
         desc={"Lindo Anel mais Pulseira Banhada a ouro"}
         link={"https://www.google.com"}
       />
+
+      <Product
+        img={
+          "https://joiasboz.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/b/r/brincos-da-moda-asas-anjo-dourados-folheados-ouro-semi-joias.png"
+        }
+        nome={"Bricos"}
+        desc={"Lindos Brincos mais Pulseira Banhada a ouro"}
+        link={"https://www.google.com"}
+      />
     </>
   );
 }

@@ -5,6 +5,7 @@ const ProductCard = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 30px;
 
   img {
     height: 200px;
@@ -12,6 +13,14 @@ const ProductCard = styled.section`
       height: 201px;
       box-shadown: 2px 2px 1px 4px;
     }
+  }
+
+  button {
+    width: 200px;
+    height: 30px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #090;
   }
 
   a {
