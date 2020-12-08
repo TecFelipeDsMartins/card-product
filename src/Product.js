@@ -30,14 +30,10 @@ const ProductCard = styled.section`
 `;
 
 export default props => {
-  const quandoClicar = () => {
-  };
     let productName = props.nome;
     let linkWhats =
       "https://api.whatsapp.com/send?phone=5551982658481&text=Ol%C3%A1.%20Visitei%20seu%20site%20e%20queria%20encomendar%20";
-
     let linkWithNameProduct = linkWhats + productName + "%20";
-console.log(linkWithNameProduct)
   return (
     <>
       <div>
