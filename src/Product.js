@@ -18,22 +18,22 @@ const ProductCard = styled.section`
   button {
     width: 200px;
     height: 30px;
-    border: 0px;
+    border: solid 1px gold;
     border-radius: 5px;
-    background-color: #090;
+    background-color: transparent;
   }
 
   a {
     text-decoration: none;
-    color: #fff;
+    color: gold;
   }
 `;
 
 export default props => {
-    let productName = props.link;
-    let linkWhats =
-      "https://api.whatsapp.com/send?phone=5551982658481&text=Ol%C3%A1.%20Visitei%20seu%20site%20e%20queria%20encomendar%20";
-    let linkWithNameProduct = linkWhats + productName + "%20";
+  let productName = props.link;
+  let linkWhats =
+    "https://api.whatsapp.com/send?phone=5551982658481&text=Ol%C3%A1.%20Visitei%20seu%20site%20e%20queria%20encomendar%20";
+  let linkWithNameProduct = linkWhats + productName + "%20";
   return (
     <>
       <div>
@@ -43,7 +43,6 @@ export default props => {
           <p>{props.desc}</p>
           <button>
             <a href={linkWithNameProduct}>Encomendar</a>
-        
           </button>
         </ProductCard>
       </div>
