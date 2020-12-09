@@ -9,9 +9,9 @@ export default function App() {
         img={
           "https://blog.santaprata.com.br/wp-content/uploads/2017/09/121880-conheca-as-6-dicas-de-ouro-para-vender-joias-e-semijoias.png"
         }
-        nome={"Anel"}
+        nome={"Anel e Pulseira"}
         desc={"Lindo Anel mais Pulseira Banhada a ouro"}
-        link={"https://www.google.com"}
+        link={"Anel%20e%20pulseira%20"}
       />
 
       <Product
@@ -20,7 +20,7 @@ export default function App() {
         }
         nome={"Bricos"}
         desc={"Lindos Brincos mais Pulseira Banhada a ouro"}
-        link={"https://www.google.com"}
+        link={"Brincos"}
       />
     </>
   );
